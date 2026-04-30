@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Praneeth Banda — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=DM+Mono:wght@300;400;500&family=Outfit:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Noise Overlay -->
+  <div class="noise"></div>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-logo">
+      <span class="logo-bracket">[</span>
+      <span class="logo-text">PB</span>
+      <span class="logo-bracket">]</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#experience" class="nav-link">Experience</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
+      <li><a href="#certifications" class="nav-link">Certs</a></li>
+      <li><a href="#contact" class="nav-link nav-cta">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#about" class="mob-link">About</a></li>
+      <li><a href="#skills" class="mob-link">Skills</a></li>
+      <li><a href="#experience" class="mob-link">Experience</a></li>
+      <li><a href="#projects" class="mob-link">Projects</a></li>
+      <li><a href="#education" class="mob-link">Education</a></li>
+      <li><a href="#certifications" class="mob-link">Certifications</a></li>
+      <li><a href="#contact" class="mob-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-lines"></div>
+    <div class="hero-orb orb1"></div>
+    <div class="hero-orb orb2"></div>
+    <div class="hero-content">
+      <div class="hero-tag reveal-up" style="--delay:0.1s">
+        <span class="mono">Available for opportunities</span>
+        <span class="status-dot"></span>
+      </div>
+      <h1 class="hero-name reveal-up" style="--delay:0.25s">
+        Hi, I'm <br /><span class="name-highlight typing-animation">Praneeth Banda</span>
+      </h1>
+      <p class="hero-title reveal-up" style="--delay:0.4s">
+        <em>Computer Science Undergraduate</em>
+      </p>
+      <p class="hero-desc reveal-up" style="--delay:0.55s">
+        I am a Computer Science undergraduate with a strong foundation in data structures and programming, eager to
+        apply technical knowledge and problem-solving skills to real-world challenges.
+      </p>
+      <div class="hero-actions reveal-up" style="--delay:0.7s">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="resume.pdf" class="btn btn-outline" target="_blank" rel="noopener noreferrer" download style="color: var(--clr-white); border-color: var(--clr-muted);">Download Resume</a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span class="mono">scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-label reveal-up">
+        <span class="mono label-num">01 /</span>
+        <span class="label-text">About Me</span>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal-left">
+          <h2 class="section-heading">Crafting the <em>future</em>,<br />one line at a time.</h2>
+          <p>I have worked on academic projects in web development, AI, and IoT that demonstrate my ability to build
+            practical and innovative solutions.</p>
+          <p>Based in Karimnagar, India, I am constantly exploring new frameworks, building projects, and enhancing my
+            logical problem-solving abilities.</p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-num">9.4</span>
+              <span class="stat-label">B.Tech CGPA</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">3+</span>
+              <span class="stat-label">Key Projects</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-image-wrap reveal-right">
+          <div class="about-image-frame">
+            <img src="my_photo.jpg" alt="Praneeth Banda"
+              style="width:100%; height:100%; object-fit:cover; border-radius:var(--radius-lg); position:relative; z-index:2;" />
+            <div class="frame-decoration"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <div class="section-label reveal-up">
+        <span class="mono label-num">02 /</span>
+        <span class="label-text">Skills</span>
+      </div>
+      <h2 class="section-heading reveal-up">My <em>toolkit</em></h2>
+      <div class="skills-grid">
+
+        <div class="skill-category reveal-up" style="--delay:0.1s">
+          <h3 class="skill-cat-title"><span class="mono">&gt;</span> Languages</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">Basic Java</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal-up" style="--delay:0.2s">
+          <h3 class="skill-cat-title"><span class="mono">&gt;</span> Database</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">Basic SQL</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal-up" style="--delay:0.3s">
+          <h3 class="skill-cat-title"><span class="mono">&gt;</span> Tools & Platforms</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">AWS</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">Render</span>
+            <span class="skill-tag">Git & GitHub</span>
+            <span class="skill-tag">Visual Studio Code</span>
+            <span class="skill-tag">Canva</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal-up" style="--delay:0.4s">
+          <h3 class="skill-cat-title"><span class="mono">&gt;</span> Soft Skills</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Problem Solving</span>
+            <span class="skill-tag">Teamwork</span>
+            <span class="skill-tag">Leadership</span>
+            <span class="skill-tag">Time Management</span>
+            <span class="skill-tag">Communication</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Skill Bars -->
+      <div class="skill-bars reveal-up" style="--delay:0.2s">
+        <div class="skill-bar-item">
+          <div class="skill-bar-label"><span>Programming & Logic</span><span class="mono">90%</span></div>
+          <div class="skill-bar-track">
+            <div class="skill-bar-fill" data-width="90"></div>
+          </div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-bar-label"><span>Web Development</span><span class="mono">85%</span></div>
+          <div class="skill-bar-track">
+            <div class="skill-bar-fill" data-width="85"></div>
+          </div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-bar-label"><span>Artificial Intelligence Models</span><span class="mono">80%</span></div>
+          <div class="skill-bar-track">
+            <div class="skill-bar-fill" data-width="80"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-label reveal-up">
+        <span class="mono label-num">03 /</span>
+        <span class="label-text">Experience</span>
+      </div>
+      <h2 class="section-heading reveal-up">Where I've <em>worked</em></h2>
+      <div class="timeline">
+
+        <div class="timeline-item reveal-up" style="--delay:0.1s">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">AIML Intern</h3>
+                <span class="timeline-company">AICTE Eduskills</span>
+              </div>
+              <span class="timeline-date mono">Jul 2024 — Sep 2024</span>
+            </div>
+            <p class="timeline-desc">Developed ML models using Python and Scikit-Learn, improving accuracy by 15%.
+              Preprocessed and analyzed 500K+ data records to enhance model performance. Optimized models with
+              hyperparameter tuning, reducing training time by 30%.</p>
+            <div class="timeline-tags">
+              <span class="tl-tag">Python</span>
+              <span class="tl-tag">Scikit-Learn</span>
+              <span class="tl-tag">Machine Learning</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section section-alt" id="projects">
+    <div class="container">
+      <div class="section-label reveal-up">
+        <span class="mono label-num">04 /</span>
+        <span class="label-text">Projects</span>
+      </div>
+      <h2 class="section-heading reveal-up">Selected <em>work</em></h2>
+      <div class="projects-grid">
+
+        <div class="project-card featured reveal-up" style="--delay:0.1s">
+          <div class="project-card-inner">
+            <div class="project-thumb thumb1"></div>
+            <div class="project-info">
+              <div class="project-meta">
+                <span class="mono project-num">01</span>
+                <span class="project-type">Web System</span>
+              </div>
+              <h3 class="project-title">Medi Sync</h3>
+              <p class="project-desc">Developed a complete hospital management system for patient registration and
+                scheduling. Implemented secure authentication and role-based access. Improved operational workflow
+                efficiency by 40%.</p>
+              <div class="project-stack">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="https://bandapraneeth.github.io/Medi-syncAIAC/" class="proj-link" target="_blank" rel="noopener noreferrer">Live Demo ↗</a>
+                <a href="#" class="proj-link proj-link-ghost">GitHub ↗</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal-up" style="--delay:0.2s">
+          <div class="project-card-inner">
+            <div class="project-thumb thumb2"></div>
+            <div class="project-info">
+              <div class="project-meta">
+                <span class="mono project-num">02</span>
+                <span class="project-type">Full Stack App</span>
+              </div>
+              <h3 class="project-title">Track Flow</h3>
+              <p class="project-desc">The project focuses on tracking and managing packages in real time. Users can
+                securely log in to monitor shipment status, view tracking history, and receive timely updates. Platform
+                provides accurate delivery estimates ensuring a smooth UX.</p>
+              <div class="project-stack">
+                <span>React.js</span><span>Node.js</span><span>Express</span><span>MySQL</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="proj-link">Live Demo ↗</a>
+                <a href="#" class="proj-link proj-link-ghost">GitHub ↗</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal-up" style="--delay:0.3s">
+          <div class="project-card-inner">
+            <div class="project-thumb thumb3"></div>
+            <div class="project-info">
+              <div class="project-meta">
+                <span class="mono project-num">03</span>
+                <span class="project-type">Full Stack App</span>
+              </div>
+              <h3 class="project-title">Smart Campus Portal</h3>
+              <p class="project-desc">Developed a centralized college portal to streamline complaint management, lost & found tracking, and real-time communication. The system leverages AI-based categorization to automatically classify user requests. Integrated real-time notifications and secure authentication to enhance engagement and reliability.</p>
+              <div class="project-stack">
+                <span>Node.js</span><span>Express</span><span>MongoDB</span><span>Socket.io</span><span>JWT</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="proj-link">Live Demo ↗</a>
+                <a href="#" class="proj-link proj-link-ghost">GitHub ↗</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section class="section" id="education">
+    <div class="container">
+      <div class="section-label reveal-up">
+        <span class="mono label-num">05 /</span>
+        <span class="label-text">Education</span>
+      </div>
+      <h2 class="section-heading reveal-up">Academic <em>foundation</em></h2>
+      <div class="edu-grid">
+
+        <div class="edu-card reveal-up" style="--delay:0.1s">
+          <div class="edu-icon">🎓</div>
+          <div class="edu-body">
+            <span class="edu-degree">B.Tech — Computer Science & Engineering</span>
+            <span class="edu-school">SR University, Warangal</span>
+            <span class="edu-year mono">May 2023 — May 2027</span>
+            <p class="edu-note">CGPA: 9.4</p>
+          </div>
+        </div>
+
+        <div class="edu-card reveal-up" style="--delay:0.2s">
+          <div class="edu-icon">📘</div>
+          <div class="edu-body">
+            <span class="edu-degree">Junior College (MPC)</span>
+            <span class="edu-school">Alphores Junior College, Karimnagar</span>
+            <span class="edu-year mono">Jun 2021 — Mar 2023</span>
+            <p class="edu-note">Percentage: 98.2%</p>
+          </div>
+        </div>
+
+        <div class="edu-card reveal-up" style="--delay:0.3s">
+          <div class="edu-icon">🏫</div>
+          <div class="edu-body">
+            <span class="edu-degree">Secondary School Certificate (SSC)</span>
+            <span class="edu-school">Raos My Techno School, Karimnagar</span>
+            <span class="edu-year mono">Jul 2020 — May 2021</span>
+            <p class="edu-note">GPA: 10.0</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section class="section section-alt" id="certifications">
+    <div class="container">
+      <div class="section-label reveal-up">
+        <span class="mono label-num">06 /</span>
+        <span class="label-text">Certifications</span>
+      </div>
+      <h2 class="section-heading reveal-up">Verified <em>expertise</em></h2>
+      <div class="cert-grid">
+
+        <div class="cert-card reveal-up" style="--delay:0.1s">
+          <div class="cert-badge">DLI</div>
+          <div class="cert-info">
+            <h4>NVIDIA Deep Learning Fundamentals</h4>
+            <span class="cert-issuer">NVIDIA</span>
+            <span class="cert-date mono">Issued: Mar 2024</span>
+          </div>
+          <a href="https://drive.google.com/file/d/1C-fP5y2PPwz6CRuLxXCyX1cI7muAkwhl/view" class="cert-verify">Verify ↗</a>
+        </div>
+
+        <div class="cert-card reveal-up" style="--delay:0.2s">
+          <div class="cert-badge">CLOUD</div>
+          <div class="cert-info">
+            <h4>Cloud Foundations</h4>
+            <span class="cert-issuer">AWS / Cloud</span>
+            <span class="cert-date mono">Issued: Nov 2023</span>
+          </div>
+          <a href="https://drive.google.com/file/d/1dYEN6k-BQoEGwPWxGOeWu2SnV6Jenq58/view" class="cert-verify">Verify ↗</a>
+        </div>
+
+        <div class="cert-card reveal-up" style="--delay:0.3s">
+          <div class="cert-badge">CCNA</div>
+          <div class="cert-info">
+            <h4>Introduction to Networks</h4>
+            <span class="cert-issuer">Cisco</span>
+            <span class="cert-date mono">Issued: Sep 2024</span>
+          </div>
+          <a href="https://drive.google.com/file/d/1iU8HZHf3I7YO_xJCH8BpC40LfXr9ANBZ/view" class="cert-verify">Verify ↗</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-label reveal-up">
+        <span class="mono label-num">07 /</span>
+        <span class="label-text">Contact</span>
+      </div>
+      <div class="contact-wrap">
+        <div class="contact-left reveal-left">
+          <h2 class="section-heading">Let's build something <em>together.</em></h2>
+          <p>Whether you have a project in mind, an opportunity to share, or just want to say hello — my inbox is always
+            open.</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <span class="contact-icon">✉</span>
+              <a href="mailto:bandapraneeth324@gmail.com">bandapraneeth324@gmail.com</a>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">📞</span>
+              <a href="tel:+919121830149">+91 9121830149</a>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">📍</span>
+              <span>Karimnagar, Telangana - 505001, India</span>
+            </div>
+          </div>
+          <div class="social-links-wrap">
+            <h3 style="font-size: 1.1rem; color: var(--clr-muted); margin-bottom: 1.25rem; font-weight: 500;">Connect
+              with me</h3>
+            <div class="social-cards">
+              <a href="https://github.com/bandapraneeth" class="social-card" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                  <path
+                    d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+                </svg>
+              </a>
+              <a href="https://www.linkedin.com/in/banda-praneeth-21017629b/" target="_blank" rel="noopener noreferrer" class="social-card" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="#0A66C2">
+                  <path
+                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                </svg>
+              </a>
+              <a href="https://leetcode.com/u/bandapraneeth/" target="_blank" rel="noopener noreferrer" class="social-card" aria-label="LeetCode">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="#F89F1B">
+                  <path
+                    d="M16.102 17.93l-2.697 2.607c-.466.467-1.111.662-1.823.662s-1.357-.195-1.824-.662l-4.332-4.363c-.467-.467-.702-1.15-.702-1.863s.235-1.357.702-1.824l4.319-4.38c.467-.467 1.125-.645 1.837-.645s1.357.195 1.823.662l2.697 2.606c.514.515 1.365.497 1.9-.038.536-.536.536-1.387.021-1.889l-2.709-2.617c-1.02-.975-2.351-1.46-3.763-1.46s-2.73.5-3.763 1.474l-4.319 4.38c-.975.975-1.46 2.3-1.46 3.71s.485 2.747 1.46 3.722l4.332 4.363c1.034 1.034 2.351 1.517 3.763 1.517s2.73-.483 3.763-1.517l2.697-2.607c.514-.515.536-1.352 0-1.889-.535-.536-1.386-.553-1.89-.038zM20.811 11.283c-1.124-.031-2.228-.063-3.324-.094-.536-.016-1.002.385-1.018.904-.016.519.385 1.002.904 1.018l3.324.094c.519.016 1.002-.385 1.018-.904.016-.519-.385-1.002-.904-1.018z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="contact-right reveal-right">
+          <div class="contact-form-wrap">
+            <div class="form-group">
+              <label class="form-label mono">Name</label>
+              <input type="text" class="form-input" placeholder="Your name" />
+            </div>
+            <div class="form-group">
+              <label class="form-label mono">Email</label>
+              <input type="email" class="form-input" placeholder="your@email.com" />
+            </div>
+            <div class="form-group">
+              <label class="form-label mono">Message</label>
+              <textarea class="form-input form-textarea" placeholder="Tell me about your project..."></textarea>
+            </div>
+            <button class="btn btn-primary btn-full" id="sendBtn">Send Message</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="mono footer-copy">© 2025 Praneeth Banda. Crafted with intent.</span>
+      <div class="footer-links">
+        <a href="#hero">↑ Back to top</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Nav scroll effect
+    window.addEventListener('scroll', () => {
+      document.getElementById('nav').classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    // Hamburger
+    const ham = document.getElementById('hamburger');
+    const mMenu = document.getElementById('mobileMenu');
+    ham.addEventListener('click', () => {
+      ham.classList.toggle('open');
+      mMenu.classList.toggle('open');
+    });
+    document.querySelectorAll('.mob-link').forEach(l => l.addEventListener('click', () => {
+      ham.classList.remove('open'); mMenu.classList.remove('open');
+    }));
+
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        e.preventDefault();
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) target.scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+
+    // Scroll reveal
+    const revealEls = document.querySelectorAll('.reveal-up, .reveal-left, .reveal-right');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          const delay = e.target.style.getPropertyValue('--delay') || '0s';
+          e.target.style.transitionDelay = delay;
+          e.target.classList.add('revealed');
+          observer.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    revealEls.forEach(el => observer.observe(el));
+
+    // Skill bars animation
+    const barObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const fills = entry.target.querySelectorAll('.skill-bar-fill');
+          fills.forEach(fill => {
+            const w = fill.getAttribute('data-width');
+            setTimeout(() => { fill.style.width = w + '%'; }, 200);
+          });
+          barObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.3 });
+    document.querySelectorAll('.skill-bars').forEach(el => barObserver.observe(el));
+
+    // Send button animation
+    document.getElementById('sendBtn').addEventListener('click', function () {
+      this.textContent = 'Message Sent ✓';
+      this.style.background = 'var(--clr-teal)';
+      this.style.color = 'var(--clr-white)';
+      setTimeout(() => {
+        this.textContent = 'Send Message';
+        this.style.background = '';
+        this.style.color = '';
+      }, 3000);
+    });
+
+    // Active nav link highlight
+    const sections = document.querySelectorAll('section[id]');
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(sec => {
+        if (window.scrollY >= sec.offsetTop - 100) current = sec.getAttribute('id');
+      });
+      document.querySelectorAll('.nav-link').forEach(l => {
+        l.classList.toggle('active', l.getAttribute('href') === '#' + current);
+      });
+    });
+  </script>
+</body>
+
+</html>
