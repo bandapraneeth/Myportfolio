@@ -888,8 +888,8 @@ button {
 /* ── Projects ──────────────────────────────────────── */
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.9rem;
   justify-content: center;
 }
 
@@ -899,18 +899,18 @@ button {
   background: var(--clr-panel);
   overflow: hidden;
   transition: border-color var(--transition), transform var(--transition), box-shadow var(--transition);
-  max-width: 520px;
+  max-width: 440px;
   margin: 0 auto;
 }
 
 .project-card:hover {
-  border-color: rgba(201, 168, 76, 0.3);
-  transform: translateY(-4px);
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+  border-color: rgba(201, 168, 76, 0.25);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
 }
 
 .project-thumb {
-  height: 130px;
+  height: 110px;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -941,52 +941,52 @@ button {
 }
 
 .project-info {
-  padding: 1rem 1rem 1.1rem;
+  padding: 0.85rem 0.9rem 0.95rem;
 }
 
 .project-meta {
   display: flex;
   align-items: center;
-  gap: 0.55rem;
-  margin-bottom: 0.6rem;
+  gap: 0.45rem;
+  margin-bottom: 0.5rem;
 }
 
 .project-num {
   color: var(--clr-gold);
-  font-size: 0.72rem;
+  font-size: 0.7rem;
 }
 
 .project-type {
-  font-size: 0.72rem;
+  font-size: 0.7rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--clr-muted);
 }
 
 .project-title {
-  font-size: 1rem;
+  font-size: 0.95rem;
   font-weight: 500;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.4rem;
 }
 
 .project-desc {
-  font-size: 0.82rem;
+  font-size: 0.8rem;
   color: var(--clr-muted);
-  line-height: 1.65;
-  margin-bottom: 0.75rem;
+  line-height: 1.55;
+  margin-bottom: 0.65rem;
 }
 
 .project-stack {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.3rem;
-  margin-bottom: 0.9rem;
+  gap: 0.25rem;
+  margin-bottom: 0.8rem;
 }
 
 .project-stack span {
   font-family: var(--ff-mono);
-  font-size: 0.68rem;
-  padding: 0.2rem 0.55rem;
+  font-size: 0.65rem;
+  padding: 0.18rem 0.5rem;
   border-radius: 4px;
   background: rgba(255, 255, 255, 0.04);
   border: 1px solid var(--clr-border);
@@ -995,14 +995,14 @@ button {
 
 .project-links {
   display: flex;
-  gap: 1rem;
+  gap: 0.75rem;
 }
 
 .proj-link {
-  font-size: 0.82rem;
+  font-size: 0.78rem;
   font-weight: 500;
   color: var(--clr-gold);
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
   transition: color var(--transition-fast), letter-spacing var(--transition-fast);
 }
 
