@@ -888,8 +888,9 @@ button {
 /* ── Projects ──────────────────────────────────────── */
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.25rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  justify-content: center;
 }
 
 .project-card {
@@ -898,18 +899,18 @@ button {
   background: var(--clr-panel);
   overflow: hidden;
   transition: border-color var(--transition), transform var(--transition), box-shadow var(--transition);
-  max-width: 560px;
+  max-width: 520px;
   margin: 0 auto;
 }
 
 .project-card:hover {
   border-color: rgba(201, 168, 76, 0.3);
-  transform: translateY(-6px);
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.22);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
 }
 
 .project-thumb {
-  height: 150px;
+  height: 130px;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -940,14 +941,14 @@ button {
 }
 
 .project-info {
-  padding: 1.25rem;
+  padding: 1rem 1rem 1.1rem;
 }
 
 .project-meta {
   display: flex;
   align-items: center;
-  gap: 0.65rem;
-  margin-bottom: 0.7rem;
+  gap: 0.55rem;
+  margin-bottom: 0.6rem;
 }
 
 .project-num {
@@ -963,31 +964,31 @@ button {
 }
 
 .project-title {
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 500;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.5rem;
 }
 
 .project-desc {
-  font-size: 0.85rem;
+  font-size: 0.82rem;
   color: var(--clr-muted);
-  line-height: 1.7;
-  margin-bottom: 0.85rem;
+  line-height: 1.65;
+  margin-bottom: 0.75rem;
 }
 
 .project-stack {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.35rem;
-  margin-bottom: 1rem;
+  gap: 0.3rem;
+  margin-bottom: 0.9rem;
 }
 
 .project-stack span {
   font-family: var(--ff-mono);
-  font-size: 0.7rem;
-  padding: 0.2rem 0.6rem;
+  font-size: 0.68rem;
+  padding: 0.2rem 0.55rem;
   border-radius: 4px;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.04);
   border: 1px solid var(--clr-border);
   color: var(--clr-muted);
 }
